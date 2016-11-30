@@ -1,4 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.margin-bot-pad{
+  margin-bottom: 10px ;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
 h1{
-  color:green;
-  font-size: 400px;
+  padding: 10px 20px ;
+  color:white;
+  font-size: 32px;
+  border: 4px solid white;
+  display: inline-block;
+}
+.inner-content-top{
+  position: relative;
+}
+h2{
+  color:white;
+  font-size: 12px;
+  text-align: center;
+}
+a{
+  color: inherit;
+}
+.svg-logo{
+  width: 300px;
+  color:white;
+}
+.svg-img2{
+  width:73px;
+  position: absolute;
+  bottom:86px;
+}
+.bottom-p{
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  bottom:53px;
+  font-size:11px;
+}
+.bottom-p a{
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 1px;
+}
+.bottom-p a:hover{
+  color: #f36;
+  text-decoration: none;
+  border-bottom: 1px solid #f36;
+  padding-bottom: 1px;
+}
+.top-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/assets/mp-hero-06.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width:100%;
+  height:100vh;
+}
+.shirt-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.shirt-single{
+  width:400px;
+  height:400px;
+  margin: 10px;
+}
+/*the collection of shirt background images*/
+.shirt1{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alice-lee-homepage-tshirt-small.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.shirt2{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/laura-bohill-homepage-tshirt-large.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.shirt3{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/mike-kus-homepage-tshirt-large.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.shirt4{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/daniel-haire-homepage-tshirt-small.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.shirt5{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alix-sorrell-homepage-tshirt-small.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.shirt6{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/jesse-brais-homepage-tshirt-small.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.shirt7{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/andy-miller-homepage-tshirt-small.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.shirt8{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/gerren-lamson-homepage-tshirt-large.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.shirt9{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/hvass-hannibal-homepage-tshirt-large.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.shirt10{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/brent-galloway-homepage-tshirt-small.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.shirt11{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/merijn-hos-homepage-tshirt-small.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.shirt12{
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/ryan-putnam-homepage-tshirt-small.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.form-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-section-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-section h1{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  font-weight: 700;
+  color:black;
+  font-size:20px;
+}
+.form-section h3{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size:13px;
+    color:grey;
+  margin-bottom: 20px;
+
+}
+form input{
+  width:240px;
+  height: 25px;
+  padding: 15px 30px;
+    font-size:13px;
+}
+.input-submit{
+    height: 55px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size:13px;
+  width: 305px;
+  background: black;
+  border:none;
+  color: white;
+  margin-bottom:20px;
+}
+.footer-section{
+  background: black;
+}
+.footer-flex-top{
+  padding-top:50px;
+}
+.footer-flex{
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  width:100%;
+  font-size: 12px;
+  font-weight: 700px;
+}
+.footer-section .btyb2{
+  display: none;
+}
+.footer-section .btyb{
+  letter-spacing: 3px;
+  font-weight: 900;
+
+  margin-bottom: 50px;
+}
+.footer-section li{
+text-align: center;
+padding: 20px;
+letter-spacing: 3px;
+font-weight: 900;
+}
+.tiny-txt{
+  text-align: center;
+  width:100%;
+font-size: 8px;
+color: rgba(255,255,255, .7);
+  font-weight: 900;
+}
+.svg-logo-bottom{
+  width: 180px;
+    margin-bottom: 50px;
+}
+.svg-img2-bottom{
+  width: 150px;
+  margin: 40px 20px;
+
+}
+.footer-flex li:hover{
+  color:rgba(255,255,255, .7)
+}
+@media (min-width: 700px){
+  .shirt-section{
+    flex-direction: row;
+  }
+  .footer-flex-top{
+    flex-direction: row;
+    justify-content: center;
+  }
+  .svg-logo-bottom{
+    display: none;
+  }
+
+  .footer-section .btyb{
+      width: 280px;
+      text-align: center;
+        margin-bottom: 0;
+    }
+    .footer-section .btyb2{
+      letter-spacing: 3px;
+        width: 280px;
+        font-size: 35px;
+        text-align: left;
+          margin-bottom: 0;
+          display: block;
+      }
+  .footer-flex li{
+    display: inline-block;
+  }
+}
+.pad-sm{
+  padding: 40px;
+}
+.pad-md{
+  padding: 80px;
 }
