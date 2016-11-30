@@ -213,6 +213,18 @@ form input{
   font-size: 12px;
   font-weight: 700px;
 }
+.footer-flex-row{
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  width:100%;
+  font-size: 12px;
+  font-weight: 700px;
+}
 .footer-section .btyb2{
   display: none;
 }
@@ -246,6 +258,22 @@ color: rgba(255,255,255, .7);
 }
 .footer-flex li:hover{
   color:rgba(255,255,255, .7)
+}
+.footer-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255, .2);
+  margin: 0px 30px;
+  transition: all 1s;
+}
+.footer-icon:hover {
+  border: 2px solid rgba(255,255,255, .9);
+}
+.footer-icon img{
+  width: 40px;
 }
 @media (min-width: 700px){
   .shirt-section{
