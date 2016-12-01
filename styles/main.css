@@ -185,7 +185,7 @@ form input{
     font-size:13px;
 }
 .input-submit{
-    height: 55px;
+    height: 58px;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -196,6 +196,11 @@ form input{
   color: white;
   margin-bottom:20px;
 }
+.input-text{
+margin-bottom: 20px;
+
+}
+
 .footer-section{
   background: black;
 }
@@ -210,6 +215,23 @@ form input{
   align-items: center;
   background: black;
   width:100%;
+  font-size: 12px;
+  font-weight: 700px;
+}
+
+
+
+
+
+.footer-flex-grey{
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1a1a1a;
+  width:100%;
+  min-height:200px;
   font-size: 12px;
   font-weight: 700px;
 }
@@ -246,6 +268,16 @@ font-weight: 900;
 font-size: 8px;
 color: rgba(255,255,255, .7);
   font-weight: 900;
+  margin-bottom: 40px;
+}
+.tiny-txt-bottom{
+  text-align: center;
+  letter-spacing: 3px;
+  width:100%;
+font-size: 12px;
+color: rgba(255,255,255, .6);
+  font-weight: 900;
+  margin: 30px;
 }
 .svg-logo-bottom{
   width: 180px;
@@ -275,9 +307,72 @@ color: rgba(255,255,255, .7);
 .footer-icon img{
   width: 40px;
 }
+.bottom-flex-boxes{
+  display: flex;
+  flex-direction: row;
+}
+.footer-see-why{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  border: 1px solid rgba(255,255,255, 1);
+  opacity: .5;
+}
+.footer-see-why img{
+  width: 10px;
+  margin-left: 8px;
+}
+.footer-get-started{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  border: 1px solid  #f36;
+  color: #f36;
+  padding: 7px 14px;
+  font-weight:bold;
+  letter-spacing: 3px;
+}
+.footer-get-started:hover{
+  opacity: .6;
+}
+.footer-see-why:hover{
+  opacity: .8;
+}
+
+.test{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 945px){
+  .shirt-section{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .shirt-single{
+    width: 48%;
+    height: 400px;
+  }
+  .form-section-flex{
+    flex-direction: row;
+  }
+  .input-submit{
+    width: 150px;
+  }
 @media (min-width: 700px){
   .shirt-section{
     flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .shirt-single{
+    width: 32%;
+    height: 400px;
   }
   .footer-flex-top{
     flex-direction: row;
